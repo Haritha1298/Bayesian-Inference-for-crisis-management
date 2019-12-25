@@ -1,7 +1,7 @@
 # Bayesian-Inference-for-crisis-management
 Large volumes of data is generated through social media tweets during and after crisis. Analysis and classification of tweets is essential for situational awareness and alerting appropriate personnel.
 
-Packages Required: 1. pybbn 2. dbn.tensorflow
+Packages Required: 1. pybbn 2. dbn.tensorflow<br>
 Data Source: CrisisLexT26
 
 ### Methods Used
@@ -25,7 +25,7 @@ refer "G. E. Hinton, S. Osindero, Y. W. Teh. “A fast learning algorithm for de
 
 ##### Bayesian Belief Network with latent Variable using pybbn library
 ![Repo List](bnet.png)
-Random Variables: Information Source(A), Informativeness(B), Information Type(C)
+Random Variables: Information Source(A), Informativeness(B), Information Type(C)<br>
 From the bayesian network, the joint probability distribution can be written as
 P(A,B,C) = P(A)* P(B/C) * P(C/B)
 
